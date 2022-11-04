@@ -7,3 +7,5 @@ This webpage is intended to showcase my professional work projects, resume, and 
 User can navitage the webpage by clicking on the title links that will direct them to the link title section. 
 
 ## Link to site
+
+https://yvieyra.github.io/my-portfolio/
