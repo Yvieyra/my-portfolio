@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/* Proeprties to my header that hols my name, picture, and title links*/
 header {
     display: flex;
     justify-content: space-between;
@@ -16,68 +16,69 @@ header {
     font-family: sans-serif;
     width: 100%;
 }
-
+/* Made my links in contact me and header show inline instead of stacked */
 .headerlinks li {
     display: inline-flex;
 }
-
+/* Makes my header links black and padding has provided space in between link titles  */
 .headerlinks li a {
     padding: 18px;
     color: black;
 }
-
+/* Properties assigned to coding picture on webpage*/
 .codepic {
     width: 100%;
     height: 500px;
     background-position: center;
     margin-bottom: 20px;
 }
-
+/* background color to every on my webpage below the coding image */
 body {
     background-color: rgb(127, 237, 241);
 }
-
+/* The about class holds my project container, project tiles, and individual divs that hold my CSS, HTML, and JavaScript images/link */
 .about {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 98%;
 }
 
-
+/* My project container is held in my about class, and holds my CSs, HTML, and JavaScript images/link */
 .project-container {
     display: flex;
     flex-wrap: wrap;
     border-left: 3px solid black;
     width: 40%;
     height: 600px;
-    margin-right: 1165px;
+    margin-right: 1145px;
 
 }
-
+/* The CSS and HTML divs both had the same properties */
 .project-tile {
     display: flex;
     height: 200px;
     width: 45%;
     margin: 20px;
 }
-
+/* The Javascript div had to be formatted to a larger size */
 #project-tile {
     display: flex;
     height: 250px;
     width: 45%;
     margin: 20px;
 }
-
+/* This has created some space to the right of my h2 title */
 h2 {
     padding-right: 7px;
 }
-
+/* Made my links in contact me and header show inline instead of stacked */
 p {
     border-left: 3px solid black;
     padding-left: 20px;
     font-size: 22px;
 }
-
+/* properties to my about me, work, and contact me containers */
 .topic {
     display: flex;
     justify-content: space-between;
@@ -87,10 +88,11 @@ p {
     font-family: sans-serif;
     width: 90%;
 }
+/* Made my links in contact me and header show inline instead of stacked */
 .contactlinks li {
     display: inline-flex;
 }
-
+/* Makes my contact me links black and padding has provided space in between link titles  */
 .contactlinks li a {
     padding: 18px;
     color: black;
