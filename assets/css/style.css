@@ -8,7 +8,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-end;
     padding: 20px;
     background-color: rgb(127, 237, 241);;
     font-size: 20px; /*link font size */
@@ -16,7 +16,6 @@ header {
     font-family: sans-serif;
     width: 100%;
 }
-
 
 .headerlinks li {
     display: inline-flex;
@@ -51,22 +50,20 @@ body {
     border-left: 3px solid black;
     width: 40%;
     height: 600px;
-    margin-right: 1000px;
+    margin-right: 1165px;
 
 }
 
 .project-tile {
     display: flex;
-    border: 1px solid green;
-    height: 100px;
-    width: 35%;
+    height: 200px;
+    width: 45%;
     margin: 20px;
 }
 
 #project-tile {
     display: flex;
-    border: 1px solid green;
-    height: 200px;
+    height: 250px;
     width: 45%;
     margin: 20px;
 }
@@ -78,7 +75,7 @@ h2 {
 p {
     border-left: 3px solid black;
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .topic {
